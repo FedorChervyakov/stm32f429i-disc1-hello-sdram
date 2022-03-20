@@ -10,6 +10,12 @@ cortex-m = "0.7.4"
 cortex-m-rt = "0.7.1"
 panic-halt = "0.2.0"
 rtt-target = { version = "0.3.0", features = ["cortex-m"] }
+embedded-hal = "0.2.7"
+nb = "1"
+
+[dependencies.stm32f4xx-hal]
+version = "0.12.0"
+features = ["stm32f429", "rt"]
 
 # Uncomment for the panic example.
 # panic-itm = "0.4.1"
